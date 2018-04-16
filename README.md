@@ -1,2 +1,2 @@
 # Powershell
-Create strong pass-phrases among other things.
+This is where I like to keep all my fun Powershell projects.
