@@ -11,9 +11,13 @@ Get-RandomURLs
   ### Usage
     
   1. Download Get-RandomURLs files.
-   ..* Get-RandomURLs.psm1
-   ..* LongWordList.txt
-   ..* ShortWordList.txt
+  
+    ⋅⋅* Get-RandomURLs.psm1
+    ⋅⋅* LongWordList.txt
+    ⋅⋅* ShortWordList.txt
+  
   2. Move files into your Powershell Modules folder.
+  
+    $home\Documents\WindowsPowerShell\Modules\<Module Folder>\<Module Files>
      
      
