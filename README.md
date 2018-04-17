@@ -3,14 +3,14 @@ This is where I like to keep all my fun Powershell scripting projects.
 
 Get-RandomURLs
 --------------
-   ### What is it? 
- 
+  ### What is it? 
+ ---
  Have you ever needed to create a list of randomly generated URLs? I didn't think I would need to either. Get-RandomURLs is a 
  fun Powershell script/module I put together in order to generate a list of random URLs for use in a Red vs Blue style lab. It 
  uses the same basic principles that are used in Diceware to create random passphrases. 
 
   ### Import 
-    
+ ---    
   1. Download Get-RandomURLs folder.  
      
      * Get-RandomURLs
@@ -33,7 +33,7 @@ Get-RandomURLs
     PS C:\Users\balloonz> Import-Module -Name Get-RandomURLs
     
  ### Usage
-  
+---  
   Simply running the module will create a CSV called RandomURLs-YYMMDD.csv in **$PWD**. 
     
     PS C:\Users\balloonz> $PWD
@@ -55,25 +55,25 @@ Get-RandomURLs
   4. -TLD <str> (The default string is ".com". (This will generate URLs with the Top Level Domain of ".com".)
    
  ### To-Do List
- 
+--- 
  - Include text files in actual code in order to make it simpler to use.
  - Change code to add the option of where to write out the RandomURLs CSV.
  - Write module to generate actual passphrases (**Get-DicewarePassphrase**). 
  - Test code on Powershell for \*nix. 
    
  ### Credit
- 
+--- 
  @Tsynapse
  
  I borrowed his code from (https://github.com/Tsynapse/Diceware-password) and turned it into functions in order to 
  make this script work the way I wanted it to. 
  
  ### Contact
- 
+--- 
 [@cysecgunz](https://twitter.com/cysecgunz) on the Twitterz!  
  
  ### License 
- 
+--- 
  GNU General Public License (GPL 3.0)
  
  
