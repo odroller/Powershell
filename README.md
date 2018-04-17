@@ -24,25 +24,19 @@ Get-RandomURLs
     
   3. Check to make sure the module is in the right directory.
   
-    ```
-    PS C:\> Get-Module -ListAvailable
-    ```
+    PS C:\> **Get-Module** -ListAvailable
     
    You should be able to see Get-RandomURLs as an available module
   
   4. Import the module.
     
-    ```
-    PS C:\> Import-Module -Name Get-RandomURLs
-    ```
+    PS C:\> **Import-Module** -Name **Get-RandomURLs**
     
  ### Usage
   
   Simply running the module will create a CSV called RandomURLs-YYMMDD.csv in your $PWD. 
     
-    ```
-    PS C:\> Get-RandomURLs
-    ```
+    PS C:\> **Get-RandomURLs**
     
   **Get-RandomURLs** has several command line arguments that can be passed to it. 
   
