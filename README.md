@@ -38,7 +38,7 @@ Get-RandomURLs
     
     PS C:\> Get-RandomURLs
     
-  **Get-RandomURLs** has several command line arguments that can be passed to it. 
+  **Get-RandomURLs** has several command line arguments (parameters) that can be passed to it. 
   
   1. -DicewareLength <long> or <short> (The default is <long> and uses the EFF 5-digit Long Word List.)
    
@@ -48,6 +48,13 @@ Get-RandomURLs
    
   4. -TLD <str> (The default string is ".com". (This will generate URLs with the Top Level Domain of ".com".)
    
+ ### To-Do List
+ 
+ - Include text files in actual code in order to make it simpler to use.
+ - Change code to add the option of where to write out the RandomURLs CSV.
+ - Write module to generate actual passphrases (**Get-DicewarePassphrase**). 
+ - Test code on Powershell for \*nix. 
+   
  ### Credit
  
  @Tsynapse
@@ -55,9 +62,15 @@ Get-RandomURLs
  I borrowed his code from (https://github.com/Tsynapse/Diceware-password) and turned it into functions in order to 
  make this script work the way I wanted it to. 
  
+ ### Contact
+ 
+[@cysecgunz](https://twitter.com/cysecgunz) on the Twitterz!  
+ 
  ### License 
  
  GNU General Public License (GPL 3.0)
+ 
+ 
  
  
  
